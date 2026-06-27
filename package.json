@@ -1,0 +1,10 @@
+{
+  "name": "claudeclone",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:cli": "bun run --watch packages/cli/src/index.tsx"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
